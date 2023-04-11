@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('pexelsmall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #a75569;
+    
+}
+
+.container{
+    width: 300px;
+    height: 310px;
+    background-color: rgba(78, 39, 55, 0.658);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.containerlogin{
+    width: 300px;
+    height: 270px;
+    background-color: rgba(78, 39, 55, 0.658);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+}
+.header{
+    justify-content: center;
+    display: flex;
+    color: rgb(223, 171, 171);
+}
+.inputarea{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.inputarea input{
+    width: 200px;
+    padding: 3px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus{
+border: 1px solid white;
+}
+.inputarea label{
+    color: rgb(223, 171, 171);
+    font-weight: lighter;
+}
+.buttonarea{
+    padding: 5px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    background: transparent;
+    color: rgb(223, 171, 171);
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(175, 61, 124, 0.336);
+}
+.inputarea a{
+    color: rgba(245, 95, 140, 0.986);
+    text-decoration: none;
+}
+nav{
+    background-color: rgba(175, 113, 113, 0.356);
+    height: 50px;
+}
+.homepage{
+  float: left;
+  margin-left: 10px;
+  display: flex;
+height: 50px;
+align-items: center;
+}
+.homepage h1{
+    color: rgba(245, 95, 140, 0.986);
+}
+.menu{
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.menu li{
+    margin: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(236, 178, 178);
+    list-style-type: none;
+}
+.slideshow-container {
+    width: 350px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  }
+  .slideshow-container img{
+    width: 350px;
+    height: 400px;
+  }
+  .mySlides {
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    top: 50%;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover {
+    color: #f5e8e8;
+  }
+  .next:hover {
+    color: #f5e8e8;
+  }
+  .text {
+    color: #c05280da;
+    font-size: 30px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .numbertext {
+    color: #1a1717;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+  }
+  .dotclass{
+    width: 100%;
+    text-align: center;
+    margin-top:460px;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #c25d76;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot:hover {
+    background-color: #f5e8e8;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
